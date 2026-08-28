@@ -3,68 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality">
+  <meta name="description" content="MAMMOTH fuses RGB, thermal, LiDAR and ego-velocity via a sparse Mixture-of-Experts backbone with modality dropout, generating physically-aware trajectories that remain robust to missing sensors and night-time off-road conditions.">
+  <meta name="keywords" content="off-road navigation, multi-modal fusion, mixture of experts, diffusion policy, missing modality robustness, autonomous robots, IROS 2026, traversability, night-time navigation, mobile robotics">
+  <meta name="author" content="Ahaan Kotian, Shivani Subramanyan, Suresh Sundaram">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="Artificial Intelligence and Robotics Lab, IISc">
+  <meta property="og:title" content="MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality">
+  <meta property="og:description" content="A unified end-to-end navigation policy that fuses RGB, thermal, LiDAR and ego-velocity via a sparse MoE backbone with modality dropout, remaining robust to missing sensors and night-time off-road conditions. Accepted to IROS 2026.">
+  <!-- TODO: replace with your deployed project page URL once published -->
+  <meta property="og:url" content="https://mammoth.github.io/">
+  <meta property="og:image" content="https://mammoth.github.io/static/images/hardware_setup.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="MAMMOTH robot platform, Copernicus, deployed in an off-road forest environment">
+  <meta property="article:published_time" content="2026-07-14T00:00:00.000Z">
+  <meta property="article:author" content="Ahaan Kotian">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="off-road navigation">
+  <meta property="article:tag" content="multi-modal fusion">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality">
+  <meta name="twitter:description" content="A unified end-to-end navigation policy that fuses RGB, thermal, LiDAR and ego-velocity via a sparse MoE backbone with modality dropout, remaining robust to missing sensors and night-time off-road conditions. Accepted to IROS 2026.">
+  <meta name="twitter:image" content="https://mammoth.github.io/static/images/hardware_setup.png">
+  <meta name="twitter:image:alt" content="MAMMOTH robot platform, Copernicus, deployed in an off-road forest environment">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
+  <meta name="citation_title" content="MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality">
+  <meta name="citation_author" content="Kotian, Ahaan">
+  <meta name="citation_author" content="Subramanyan, Shivani">
+  <meta name="citation_author" content="Sundaram, Suresh">
+  <meta name="citation_publication_date" content="2026/07/14">
+  <meta name="citation_conference_title" content="IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)">
+  <meta name="citation_pdf_url" content="https://mammoth.github.io/static/pdfs/2607.12965v1.pdf">
+  <meta name="citation_arxiv_id" content="2607.12965">
+
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
   <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
+
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,24 +59,22 @@
   <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>MAMMOTH - Kotian, Subramanyan, Sundaram | IROS 2026</title>
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
+  <link rel="icon" type="image/x-icon" href="static/images/website_logo.jpg">
+  <link rel="apple-touch-icon" href="static/images/website_logo.jpg">
+
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
+
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -97,10 +82,10 @@
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
+
   <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -108,209 +93,146 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
+
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality",
+    "description": "MAMMOTH fuses RGB, thermal, LiDAR and ego-velocity via a sparse Mixture-of-Experts backbone with modality dropout, generating physically-aware trajectories that remain robust to missing sensors and night-time off-road conditions.",
     "author": [
       {
         "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
+        "name": "Ahaan Kotian",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "Artificial Intelligence and Robotics Lab, Department of Aerospace Engineering, Indian Institute of Science"
         }
       },
       {
         "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
+        "name": "Shivani Subramanyan",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "Artificial Intelligence and Robotics Lab, Department of Aerospace Engineering, Indian Institute of Science"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Suresh Sundaram",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Artificial Intelligence and Robotics Lab, Department of Aerospace Engineering, Indian Institute of Science"
         }
       }
     ],
-    "datePublished": "2024-01-01",
+    "datePublished": "2026-07-14",
     "publisher": {
       "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      "name": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026"
     },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
+    "url": "https://mammoth.github.io/",
+    "image": "https://mammoth.github.io/static/images/hardware_setup.png",
+    "keywords": ["off-road navigation", "multi-modal fusion", "mixture of experts", "diffusion policy", "missing modality robustness"],
+    "abstract": "Reliable autonomous navigation in unstructured off-road environments remains a critical unsolved challenge due to extreme terrain diversity, drastic illumination variations and acute sensor degradation. We introduce MAMMOTH (MAsking Multi-Modal inputs for Off-road Traversability Heuristic-informed navigation), a unified end-to-end navigation policy for robust off-road visual-goal-conditioned navigation and undirected exploration. MAMMOTH efficiently fuses multi-modal observations (RGB, Thermal, 3D Pointcloud and Ego Velocity) and is trained with a modality dropout scheme, enabling it to generalize to missing modalities at inference time.",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+      "@id": "https://mammoth.github.io/"
     },
     "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
+      { "@type": "Thing", "name": "Off-Road Autonomous Navigation" },
+      { "@type": "Thing", "name": "Multi-Modal Sensor Fusion" }
     ]
   }
   </script>
-  
+
   <!-- Website/Organization Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
+    "name": "Artificial Intelligence and Robotics Lab, Indian Institute of Science",
+    "url": "https://iisc.ac.in",
+    "logo": "https://mammoth.github.io/static/images/website_logo.ico"
   }
   </script>
 </head>
 <body>
-
 
   <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
-  <section class="hero">
+  <section class="hero publication-header">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+              <span class="author-block">Ahaan Kotian<sup>1</sup>,</span>
+              <span class="author-block">Shivani Subramanyan<sup>1</sup>,</span>
+              <span class="author-block">Suresh Sundaram<sup>1</sup></span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Artificial Intelligence and Robotics Lab, Department of Aerospace Engineering, Indian Institute of Science, India</span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="column has-text-centered">
+              <span class="publication-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026</span>
+            </div>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="static/pdfs/2607.12965v1.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Paper</span>
                 </a>
               </span>
-            </div>
-          </div>
-        </div>
+
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2607.12965" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+              </a>
+            </span>
+
+            <span class="link-block">
+              <a href="#video" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-youtube"></i>
+              </span>
+              <span>Video</span>
+            </a>
+          </span>
+
+          <span class="link-block">
+            <a class="external-link button is-normal is-rounded is-dark" style="opacity:0.6; cursor:default;" title="Code and dataset will be released soon">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>Code (Coming Soon)</span>
+          </a>
+        </span>
       </div>
     </div>
   </div>
+</div>
+</div>
+</div>
 </section>
 
 
@@ -318,19 +240,40 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
+      <div class="publication-banner">
+        <video id="tree" autoplay muted loop playsinline height="100%" preload="metadata">
+          <source src="static/videos/iros_supplementary_final_compressed_1.mp4" type="video/mp4">
+        </video>
+      </div>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        MAMMOTH deployed on <b>Copernicus</b>, an all-terrain ground robot, navigating cluttered off-road forest environments in both daylight and low-ambient-light, night-time conditions.
       </h2>
     </div>
   </div>
 </section>
 <!-- End teaser video -->
+
+<!-- Key Contributions -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Key Contributions</h2>
+        <div class="content has-text-justified">
+          <ol>
+            <li><b>Synergistic multi-modal fusion.</b> MAMMOTH fuses RGB, thermal LWIR, 3D LiDAR pointclouds and ego velocity through a sparse Mixture-of-Experts (MoE) backbone with per-modality routers and Laplace gating, learning both selective reliance on informative modalities and deep cross-modal understanding.</li>
+            <li><b>Flexible and robust deployment.</b> A modality dropout training scheme masks out entire modalities during training, giving MAMMOTH zero-shot robustness to real-world sensor degradation and the ability to run on robots that lack a full sensor suite.</li>
+            <li><b>Physically-aware trajectory generation.</b> A diffusion policy jointly models candidate trajectories and a self-supervised traversability heuristic derived from IMU signals, letting MAMMOTH prefer safer, smoother paths at negligible computational overhead.</li>
+          </ol>
+          <p>
+            MAMMOTH is, to the best of our knowledge, the first end-to-end policy to demonstrate robust off-road mobility in complete night-time conditions while also generalizing to missing-modality scenarios, validated through extensive real-world deployment across five distinct off-road environments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Key Contributions -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -339,9 +282,8 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Reliable autonomous navigation in unstructured off-road environments remains a critical unsolved challenge due to extreme terrain diversity, drastic illumination variations and acute sensor degradation. Recent developments have approached the problem as a traversability costmap estimation or visual navigation task. However, many exhibit heavy reliance on RGB modality, leading to poor performance in varied illumination such as glares, shadows or low ambient light. Achieving robust generalization in such conditions requires integrating modalities that provide supplementary scene information. Such multi-modal methods suffer from a rigid dependency on the presence of near-perfect sensor inputs, leaving them unable to robustly handle sensor degradation or individual modality failure. To address these limitations, we introduce MAMMOTH (MAsking Multi-Modal inputs for Off-road Traversability Heuristic-informed navigation), a unified end-to-end navigation policy for robust off-road visual-goal-conditioned navigation and undirected exploration. Specifically, MAMMOTH efficiently fuses multi-modal observations (RGB, Thermal, 3D Pointcloud and Ego Velocity) and is trained with a modality dropout scheme, enabling it to generalize to missing modalities at inference time. Furthermore, we employ a diffusion policy to learn the joint conditional probability distribution of physically-grounded trajectories and an intrinsic traversability heuristic. MAMMOTH utilizes this heuristic to prefer safer, smoother trajectories. We validate MAMMOTH through extensive real-world robot experiments in distinct off-road environments, including night-time operation. Our results demonstrate superior performance, with significant improvements in collision avoidance, terrain-aware planning and generalization to missing modalities. The code and dataset used for this work will be made publicly available.
           </p>
         </div>
       </div>
@@ -350,125 +292,193 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+<!-- Method / Architecture -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method: MAMMOTH Architecture</h2>
+    <div class="columns is-centered">
+      <div class="column is-full publication-body">
+        <img src="static/images/model_arch_final.png" alt="MAMMOTH model architecture diagram showing modality-specific encoders, sparse MoE fusion layers, and a diffusion-based trajectory head" loading="lazy">
+        <p class="has-text-centered" style="margin-top:1rem; color:var(--text-secondary);">
+          <b>Model architecture of MAMMOTH.</b> Distinct encoders process RGB, thermal, 3D pointcloud and ego velocity inputs. In the fusion layer, a sparse router dynamically selects and fuses features by feeding into expert networks. A diffusion policy then generates physically-grounded multi-modal trajectories while an MLP predicts the temporal distance to the goal.
+        </p>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content has-text-justified">
+        <p>
+          MAMMOTH encodes the current and past three observations from each modality &mdash; RGB and thermal images via separate EfficientNet-B0 encoders, 3D LiDAR pointclouds via a PointPillars encoder, and ego velocity via Fourier features &mdash; into 256-dimensional latent tokens. These tokens pass through four fusion layers, each combining Multi-Head Self-Attention with masking and a sparse MoE layer that uses four lightweight, per-modality routers with Laplace gating to route tokens to a shared pool of 16 expert networks (Top-4 selected per token).
+        </p>
+        <p>
+          During training, RGB, 3D pointcloud and velocity tokens are randomly masked with probability <i>p</i>&nbsp;=&nbsp;0.5 across all masking combinations, while the thermal modality is masked with a lower probability of <i>p</i>&nbsp;=&nbsp;0.2 to compensate for its absence in the public TartanDrive 2.0 dataset. At inference, any subset of modalities can be deterministically dropped to simulate sensor failure &mdash; MAMMOTH's "mask-and-ignore" strategy avoids the computational overhead of token reconstruction while retaining strong cross-modal robustness.
+        </p>
+        <p>
+          The fused context conditions a 1-D Conditional U-Net trained as a Denoising Diffusion Probabilistic Model (DDPM, <i>T</i>&nbsp;=&nbsp;10 steps) that jointly generates 8 candidate trajectories of 8 waypoints each, augmented with a self-supervised traversability heuristic derived from the Power Spectral Density of vertical (Z-axis) IMU acceleration. At inference, candidate trajectories are ranked by this heuristic to prioritize vehicle safety and stability.
+        </p>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End Method / Architecture -->
 
+<!-- Results: Baseline Comparison -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Comparison with Baselines</h2>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content has-text-justified">
+        <p>
+          MAMMOTH is evaluated against NoMaD and FlowNav, along with two ablation baselines (Concat-fusion, Modified-NoMaD) and a version without the traversability heuristic, across five unseen real-world off-road environments. We report the mean collision rate (CR, collisions per minute), the mean number of "undesirable behaviors" (UB, e.g. trail-boundary violations or manual takeovers) and the goal-reaching success rate (SR) for daytime visual-goal-conditioned navigation.
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-five-fifths publication-body">
+        <img src="static/images/baseline_comparison_table.png" alt="Table comparing MAMMOTH against NoMaD, FlowNav and ablation baselines on collision rate, undesirable behaviors and success rate in day and night conditions" loading="lazy">
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content has-text-justified">
+        <p>
+          MAMMOTH outperforms all baselines, reducing collision rate by 0.6 and improving daytime success rate by 16% over the best-performing baseline, NoMaD. RGB-only baselines like NoMaD and FlowNav cannot operate at night at all, whereas MAMMOTH remains fully operational in low ambient light and even outperforms every baseline's <i>daytime</i> metrics while doing so &mdash; underscoring the value of fusing thermal, LiDAR and velocity information beyond RGB alone.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Results: Baseline Comparison -->
 
+<!-- Results: Missing Modality Ablations -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Missing Modality Robustness</h2>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content has-text-justified">
+        <p>
+          To validate MAMMOTH's deployability under acute sensor degradation, we deactivate individual sensors and observe the impact on obstacle avoidance and traversability estimation over 12 minutes of continuous autonomous mobility, in both day and night conditions.
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-half publication-body">
+        <img src="static/images/missing_modality_table-1.png" alt="Table showing MAMMOTH's collision rate and undesirable behavior with each single modality individually removed, in day and night conditions" loading="lazy">
+        <p class="has-text-centered" style="margin-top:0.75rem; color:var(--text-secondary);">Single missing modality: MAMMOTH degrades gracefully when any one sensor is removed.</p>
+      </div>
+      <div class="column is-half publication-body">
+        <img src="static/images/missing_modality_table-2.png" alt="Table showing the effect of incrementally adding modalities to an RGB-only sensor suite" loading="lazy">
+        <p class="has-text-centered" style="margin-top:0.75rem; color:var(--text-secondary);">Modality contribution: adding 3D pointcloud sharply cuts collision rate; adding thermal improves terrain understanding (lower UB).</p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content has-text-justified">
+        <p>
+          MAMMOTH performs best when no perception modality is missing, but generalizes well to any single missing modality, particularly at night. 3D pointcloud plays the largest role in collision avoidance, while thermal and ego velocity most improve terrain understanding after dark &mdash; evidence that MAMMOTH's sparse MoE backbone learns genuine selective reliance rather than a fixed fusion recipe.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Results: Missing Modality Ablations -->
 
+<!-- Results: Architectural Ablations -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Architectural Ablation Study</h2>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content has-text-justified">
+        <p>
+          We validate MAMMOTH's design decisions &mdash; a pretrained vs. from-scratch vision encoder, the number of experts, the Top-<i>K</i> routing value, and the gating/router design &mdash; over 12 minutes of continuous autonomous mobility per configuration. Our final configuration (<b>Ours</b>) uses 16 experts, Top-4 routing, Laplace gating and per-modality routers.
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div class="table-container">
+          <table class="table is-bordered is-striped is-narrow is-fullwidth">
+            <thead>
+              <tr>
+                <th rowspan="2" style="vertical-align:middle;">Ablation</th>
+                <th colspan="2" class="has-text-centered">Day</th>
+                <th colspan="2" class="has-text-centered">Night</th>
+              </tr>
+              <tr>
+                <th class="has-text-centered">CR &darr;</th>
+                <th class="has-text-centered">UB &darr;</th>
+                <th class="has-text-centered">CR &darr;</th>
+                <th class="has-text-centered">UB &darr;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Pretrained</td><td class="has-text-centered">1.3</td><td class="has-text-centered">1.0</td><td class="has-text-centered">-</td><td class="has-text-centered">-</td></tr>
+              <tr><td>Experts = 8</td><td class="has-text-centered">0.8</td><td class="has-text-centered">1.3</td><td class="has-text-centered">0.9</td><td class="has-text-centered">1.8</td></tr>
+              <tr><td>Experts = 32</td><td class="has-text-centered">1.3</td><td class="has-text-centered">1.2</td><td class="has-text-centered">1.1</td><td class="has-text-centered">1.2</td></tr>
+              <tr><td>Top-2</td><td class="has-text-centered">1.5</td><td class="has-text-centered">1.3</td><td class="has-text-centered">1.8</td><td class="has-text-centered">1.5</td></tr>
+              <tr><td>Top-8</td><td class="has-text-centered">1.2</td><td class="has-text-centered">0.8</td><td class="has-text-centered">1.4</td><td class="has-text-centered">1.5</td></tr>
+              <tr><td>Softmax gating</td><td class="has-text-centered">1.0</td><td class="has-text-centered">0.8</td><td class="has-text-centered">1.2</td><td class="has-text-centered">0.75</td></tr>
+              <tr><td>Joint router</td><td class="has-text-centered">1.3</td><td class="has-text-centered">1.8</td><td class="has-text-centered">1.3</td><td class="has-text-centered">1.8</td></tr>
+              <tr style="background:var(--background-accent); font-weight:700;"><td>Ours</td><td class="has-text-centered">0.7</td><td class="has-text-centered">0.6</td><td class="has-text-centered">0.8</td><td class="has-text-centered">0.75</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Results: Architectural Ablations -->
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- Real-World Deployment -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Real-World Deployment</h2>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths publication-body">
+        <img src="static/images/hardware_setup.png" alt="Hardware setup of Copernicus, the all-terrain ground robot, annotated with its Livox Avia LiDAR, Wit IMU JY901, Lucid Vision Labs Triton RGB camera and Trimer LWIR thermal camera" loading="lazy">
+        <p class="has-text-centered" style="margin-top:1rem; color:var(--text-secondary);">
+          <b>Hardware setup.</b> Our sensor suite includes a Livox Avia LiDAR (1), Wit IMU JY901 (2), Lucid Vision Labs Triton TRI032S-CC camera (3) and Trimer TRA_L6D_ZDN LWIR thermal camera (4).
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content has-text-justified">
+        <p>
+          All trained models were deployed on <b>Copernicus</b>, our all-terrain ground robot, with onboard inference running on an NVIDIA Jetson Orin AGX under ROS2 Humble at 2Hz, with an average robot speed of 0.8&nbsp;m/s. We evaluate MAMMOTH across five distinct real-world off-road environments &mdash; deliberately chosen to be cluttered, forest-like settings with dense overhead trees, no clear trails, and complex terrain, unlike the well-lit, clear-trail environments used in prior off-road navigation work. MAMMOTH was tested during both day (adequate ambient light) and night (low ambient light) operation.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Real-World Deployment -->
+
+<!-- Video Presentation -->
+<section class="hero is-small is-light" id="video">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3 has-text-centered">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
           <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <video controls playsinline preload="metadata" style="position:absolute; top:0; left:0; width:100%; height:100%; border-radius: var(--border-radius-lg);">
+              <source src="static/videos/iros_supplementary_final_compressed_1.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End Video Presentation -->
 
-
-<!-- Video carousel -->
+<!-- Paper viewer -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
+      <h2 class="title has-text-centered">Paper</h2>
+      <iframe src="static/pdfs/2607.12965v1.pdf" width="100%" height="700" style="border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg);">
+      </iframe>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
+<!-- End paper viewer -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
@@ -480,17 +490,17 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@inproceedings{kotian2026mammoth,
+  title={{MAMMOTH}: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality},
+  author={Kotian, Ahaan and Subramanyan, Shivani and Sundaram, Suresh},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2026}
 }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
 
+  </main>
 
   <footer class="footer">
   <div class="container">
@@ -499,7 +509,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
@@ -511,7 +521,7 @@
 </footer>
 
 <!-- Statcounter tracking code -->
-  
+
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
