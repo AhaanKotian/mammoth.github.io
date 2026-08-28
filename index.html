@@ -62,8 +62,9 @@
   <title>MAMMOTH - Kotian, Subramanyan, Sundaram | IROS 2026</title>
 
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/website_logo.jpg">
-  <link rel="apple-touch-icon" href="static/images/website_logo.jpg">
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/website_logo.jpg">
+  <link rel="apple-touch-icon" href="static/images/website_logo.jpg"> -->
+  <link rel="icon" href="data:,">
 
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -105,6 +106,7 @@
       {
         "@type": "Person",
         "name": "Ahaan Kotian",
+        "url": "https://ahaankotian.github.io",
         "affiliation": {
           "@type": "Organization",
           "name": "Artificial Intelligence and Robotics Lab, Department of Aerospace Engineering, Indian Institute of Science"
@@ -113,6 +115,7 @@
       {
         "@type": "Person",
         "name": "Shivani Subramanyan",
+        "url": "https://www.linkedin.com/in/shivani-subramanyan-158990233/",
         "affiliation": {
           "@type": "Organization",
           "name": "Artificial Intelligence and Robotics Lab, Department of Aerospace Engineering, Indian Institute of Science"
@@ -121,6 +124,7 @@
       {
         "@type": "Person",
         "name": "Suresh Sundaram",
+        "url": "https://aero.iisc.ac.in/people/sureshsundaram/",
         "affiliation": {
           "@type": "Organization",
           "name": "Artificial Intelligence and Robotics Lab, Department of Aerospace Engineering, Indian Institute of Science"
@@ -175,9 +179,9 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality</h1>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Ahaan Kotian<sup>1</sup>,</span>
-              <span class="author-block">Shivani Subramanyan<sup>1</sup>,</span>
-              <span class="author-block">Suresh Sundaram<sup>1</sup></span>
+              <span class="author-block"><a href="https://ahaankotian.github.io" target="_blank" rel="noopener noreferrer">Ahaan Kotian</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://www.linkedin.com/in/shivani-subramanyan-158990233/" target="_blank" rel="noopener noreferrer">Shivani Subramanyan</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://aero.iisc.ac.in/people/sureshsundaram/" target="_blank" rel="noopener noreferrer">Suresh Sundaram</a><sup>1</sup></span>
             </div>
 
             <div class="is-size-5 publication-authors">
@@ -490,11 +494,14 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@inproceedings{kotian2026mammoth,
-  title={{MAMMOTH}: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality},
-  author={Kotian, Ahaan and Subramanyan, Shivani and Sundaram, Suresh},
-  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2026}
+      <pre id="bibtex-code"><code>@misc{kotian2026mammothmultimodalendtoendpolicy,
+      title={MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality}, 
+      author={Ahaan Kotian and Shivani Subramanyan and Suresh Sundaram},
+      year={2026},
+      eprint={2607.12965},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2607.12965}, 
 }</code></pre>
     </div>
 </section>
@@ -508,6 +515,12 @@
       <div class="column is-8">
         <div class="content">
 
+          <div class="view-counter">
+            <a href="https://hits.sh/mammoth.github.io/" target="_blank" rel="noopener noreferrer" aria-label="View public page view statistics">
+              <img alt="Page views" src="https://hits.sh/mammoth.github.io.svg?label=views&amp;color=2563eb&amp;labelColor=1e293b">
+            </a>
+          </div>
+
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
@@ -519,12 +532,6 @@
     </div>
   </div>
 </footer>
-
-<!-- Statcounter tracking code -->
-
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
 
   </body>
   </html>

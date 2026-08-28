@@ -353,6 +353,15 @@ body {
   line-height: 1.7;
 }
 
+.view-counter {
+  margin-bottom: 1.25rem;
+}
+
+.view-counter img {
+  display: inline-block;
+  height: 20px;
+}
+
 .footer a {
   color: var(--primary-color);
   text-decoration: none;
@@ -748,6 +757,5 @@ a:focus {
     box-shadow: none !important;
   }
 }
-
 
 
